@@ -22,4 +22,5 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: true
-          tags: mfeder/example-app:latest
+          tags: |
+            ${{ secrets.REGISTRY_URL }}/mfeder/example-app:latest
