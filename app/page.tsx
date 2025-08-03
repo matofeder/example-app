@@ -12,7 +12,7 @@ export default function Home() {
           {heading}
         </h1>
         <p className="text-2xl text-white-700 text-center">
-          This is a very basic example page:)
+          This is a very basic example page. :)
         </p>
       </div>
     </main>
